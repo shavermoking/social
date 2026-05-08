@@ -34,10 +34,7 @@
 </script>
 
 <template>
-    <h1 class="font-bold">Hello world</h1>
-    <div>
-
-
+    <div class="flex justify-between p-8 w-96 mx-auto">
         <router-link v-if="!token" :to="{ name: 'user.login'}">Login</router-link>
         <router-link v-if="token" :to="{ name: 'user.personal'}">Personal</router-link>
         <router-link v-if="!token" :to="{ name: 'user.registration'}">Registration</router-link>

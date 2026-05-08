@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-    <div> Personal</div>
+    <div class="w-96 mx-auto"> Personal</div>
 </template>
 
 <style scoped>
